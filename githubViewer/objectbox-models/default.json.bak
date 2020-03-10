@@ -1,0 +1,204 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:6474842810089269589",
+      "lastPropertyId": "31:1401102250590051643",
+      "name": "GithubModel",
+      "properties": [
+        {
+          "id": "1:7092832131057719599",
+          "name": "id",
+          "type": 6,
+          "flags": 131
+        },
+        {
+          "id": "2:7803889680623991011",
+          "name": "login",
+          "type": 9
+        },
+        {
+          "id": "3:5053754551930681924",
+          "name": "nodeId",
+          "type": 9
+        },
+        {
+          "id": "4:9021721220936391625",
+          "name": "avatarUrl",
+          "type": 9
+        },
+        {
+          "id": "5:595363664870855680",
+          "name": "gravatarId",
+          "type": 9
+        },
+        {
+          "id": "6:6444695379847710292",
+          "name": "url",
+          "type": 9
+        },
+        {
+          "id": "7:6806191168471196467",
+          "name": "htmlUrl",
+          "type": 9
+        },
+        {
+          "id": "8:5211642223806258438",
+          "name": "followersUrl",
+          "type": 9
+        },
+        {
+          "id": "9:6203815184213620223",
+          "name": "followingUrl",
+          "type": 9
+        },
+        {
+          "id": "10:8562443304844393472",
+          "name": "gistsUrl",
+          "type": 9
+        },
+        {
+          "id": "11:3682883596483356684",
+          "name": "starredUrl",
+          "type": 9
+        },
+        {
+          "id": "12:4610311400760507633",
+          "name": "subscriptionsUrl",
+          "type": 9
+        },
+        {
+          "id": "13:7284751628995681649",
+          "name": "organizationsUrl",
+          "type": 9
+        },
+        {
+          "id": "14:1665949912040192031",
+          "name": "reposUrl",
+          "type": 9
+        },
+        {
+          "id": "15:2472103808067536849",
+          "name": "eventsUrl",
+          "type": 9
+        },
+        {
+          "id": "16:4253467517661787337",
+          "name": "receivedEventsUrl",
+          "type": 9
+        },
+        {
+          "id": "17:7806380073989095883",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "18:5508461273385676091",
+          "name": "siteAdmin",
+          "type": 1,
+          "flags": 2
+        },
+        {
+          "id": "19:1165165631679843229",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "20:8085931309214545867",
+          "name": "company",
+          "type": 9
+        },
+        {
+          "id": "21:2996285205131829983",
+          "name": "blog",
+          "type": 9
+        },
+        {
+          "id": "22:9058607986268799394",
+          "name": "location",
+          "type": 9
+        },
+        {
+          "id": "23:5815217079152099739",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "24:205526506941267567",
+          "name": "hireable",
+          "type": 9
+        },
+        {
+          "id": "25:1384910273386056794",
+          "name": "bio",
+          "type": 9
+        },
+        {
+          "id": "26:6633899820341094101",
+          "name": "publicRepos",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "27:4690800416442436759",
+          "name": "publicGists",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "28:2951178676030202128",
+          "name": "followers",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "29:8011389735309754708",
+          "name": "following",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "30:2447069357215542354",
+          "name": "createdAt",
+          "type": 9
+        },
+        {
+          "id": "31:1401102250590051643",
+          "name": "updatedAt",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:6474842810089269589",
+  "lastIndexId": "0:0",
+  "lastRelationId": "4:5571111799277194780",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    3282580850405335820,
+    1684395251814884521
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    5751734294017924904,
+    8891249856279580120,
+    829567849384423562,
+    6208195441577179929,
+    521643838334599375,
+    8704625048510744859,
+    7014722203444726969,
+    4470331757191335024
+  ],
+  "retiredRelationUids": [
+    6466863552087029877,
+    4279078575227394788,
+    3589242950895246200,
+    5571111799277194780
+  ],
+  "version": 1
+}

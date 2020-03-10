@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Github Viewer</string>
+    <string name="artwork" translatable="false">artwork</string>
+    <string name="search">Search</string>
+    <string name="pull_down_refresh">pull down to refresh data !</string>
+    <string name="info">id : %d  number : %d  \nsite admin : %b  type : %s</string>
+    <string name="created_time">created time : %s</string>
+    <string name="total_view">total view : %d</string>
+    <string name="search_github_name">Search for drama name</string>
+
+    <string name="error_detail">Problem while getting drama info, Try again..</string>
+    <string name="error_no_github">"No drama found, Try again."</string>
+    <string name="error_network">"network error, check network then try again."</string>
+    <string name="loading">loading</string>
+    <string name="staff">STAFF</string>
+</resources>

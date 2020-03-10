@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/github_detail_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/material_keyline_half">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imgThumbDetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/material_key_line_quarter"
+                android:layout_weight="2"
+                android:contentDescription="@string/artwork" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/name_detail"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/material_keyline"
+            android:textStyle="bold"
+            tools:text="Charles Lo" />
+
+        <TextView
+            android:id="@+id/bio"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/material_key_line_quarter"
+            tools:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/material_key_line_quarter"
+            android:layout_marginTop="@dimen/material_key_line_quarter"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/person"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_key_line_quarter"
+            android:contentDescription="@string/artwork"
+            android:drawableStart="@drawable/ic_person_black"
+            android:drawableLeft="@drawable/ic_person_black"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_background"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:padding="@dimen/material_key_line_quarter"
+            android:text="@string/staff"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            tools:text="Firestone" />
+
+        <TextView
+            android:id="@+id/location"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_key_line_quarter"
+            android:contentDescription="@string/artwork"
+            android:drawableStart="@drawable/ic_location_on_black"
+            android:drawableLeft="@drawable/ic_location_on_black"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/blog"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_key_line_quarter"
+            android:autoLink="all"
+            android:contentDescription="@string/artwork"
+            android:drawableStart="@drawable/ic_insert_link_black"
+            android:drawableLeft="@drawable/ic_insert_link_black"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+</ScrollView>
