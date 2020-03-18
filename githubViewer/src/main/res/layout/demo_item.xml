@@ -27,7 +27,7 @@
             android:padding="@dimen/material_key_line_quarter">
 
             <TextView
-                android:id="@+id/drama_name_demo"
+                android:id="@+id/name_demo"
                 android:layout_width="100dp"
                 android:layout_height="10dp"
                 android:background="@android:color/darker_gray"

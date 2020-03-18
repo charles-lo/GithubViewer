@@ -4,7 +4,7 @@ apply plugin: 'io.objectbox'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.charles.dramaviewer"
+        applicationId "com.charles.githtbviewer"
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1
